@@ -8891,7 +8891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgm: {fileID: 1997864178}
-  fadeDuration: 2
+  fadeDuration: 1.7
   nextSceneName: Scene01_FOREST
 --- !u!4 &747143120
 Transform:

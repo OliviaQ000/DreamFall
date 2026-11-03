@@ -13249,7 +13249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgm: {fileID: 330795860}
-  fadeDuration: 2
+  fadeDuration: 1.7
   nextSceneName: Scene02_TEDDIE
 --- !u!4 &1242243488
 Transform:
