@@ -163,7 +163,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17015261}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -746,6 +746,115 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &112390014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 112390017}
+  - component: {fileID: 112390016}
+  - component: {fileID: 112390015}
+  m_Layer: 0
+  m_Name: 01_Tree3 (item2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &112390015
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112390014}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 0.6051998, y: 23.547493, z: 1.0058517}
+  m_Center: {x: -0.017903328, y: 11.7737465, z: -0.01216507}
+--- !u!212 &112390016
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112390014}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1970953300, guid: fe45ce7ba1ed9b340abf8c250d0fa689, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.84, y: 23.604069}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &112390017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112390014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48, y: -0.3, z: -13.299988}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1999210032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120954295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,7 +1275,7 @@ Transform:
   m_GameObject: {fileID: 153760023}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0053806882, y: -0, z: -0, w: 0.9999856}
-  m_LocalPosition: {x: 0, y: 6.4, z: -181.3}
+  m_LocalPosition: {x: 0, y: 6.6400003, z: -203.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7715,8 +7824,8 @@ GameObject:
   m_Component:
   - component: {fileID: 378882029}
   - component: {fileID: 378882031}
-  - component: {fileID: 378882030}
   - component: {fileID: 378882028}
+  - component: {fileID: 378882032}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -7763,6 +7872,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1751111221}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 112390014}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   NodeID: 2
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
   Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
@@ -7782,37 +7915,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1432572113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &378882030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378882027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1115389348}
-        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!114 &378882031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7829,6 +7931,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &378882032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378882027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
   Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
   Audio: {fileID: 0}
@@ -8425,7 +8546,7 @@ GameObject:
   - component: {fileID: 420390732}
   - component: {fileID: 420390731}
   m_Layer: 0
-  m_Name: Forest_Bird_Conversation
+  m_Name: Teddie_Window_Conversation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8444,15 +8565,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 23
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":868.6667,"yPos":93.66666},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Observe
-    the ''bird''","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":628.3333,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    right here, director.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":890.6666,"yPos":407.3332},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"FOREST","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":892.6666,"yPos":500.666626},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"He''s
-    returned to his ''natural'' form now. Let''s look around and see if we can find
-    items that might awake him up.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":886.6666,"yPos":169.333237},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Director,
-    this must be Forest''s ''room''. ","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":false,"xPos":890.6666,"yPos":287.999969},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"He''s
-    usually the most cooperative patient during treatment, but that doesn''t mean
-    he''s free of inner trauma.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":1099.99951,"yPos":495.3335},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"As
-    Raven finished speaking, a shovel suddenly appeared in your hand.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1268.66663,"yPos":511.333252},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"(...staring)","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"FOREST","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":680,"yPos":-305.6667},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi..?","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":439.666626,"yPos":-377.333374},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    it''s the Director! Welcome to my dollhouse!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"???","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":701.333252,"yPos":8.666477},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":703.3333,"yPos":101.333328},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Come
+    on, let''s play, let''s play! But if you want to win, you''d better pay close
+    attention to every little detail around here!","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":697.999939,"yPos":-230.0001},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Director,
+    this is Teddie, Patient No.2 from the real world. He''s a very lively boy...
+    sometimes a little too lively. ","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":false,"xPos":701.999939,"yPos":-111.333359},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    wait, you''re... Raven! Pfft! You''re such a chubby little bird now! That''s
+    sooo funny.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":910.666,"yPos":96.00023},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Well,
+    even if you can''t find it, your all-purpose secretary Raven will surely come
+    to the rescue! ... nah, that''d be no fun at all.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1079.99976,"yPos":111.999947},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"I''ll
+    randomly change one item in this dollhouse each time. When you spot something
+    suspicious, go up to it and press \"ENTER\" to investigate! Huh, what''s \"ENTER\"...Let''s
+    get started!","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -8472,26 +8597,14 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 347479390}
-        m_TargetAssemblyTypeName: ColliderManager, Assembly-CSharp
-        m_MethodName: DisableTrigger
-        m_Mode: 1
+      - m_Target: {fileID: 1115389348}
+        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 946246251}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9214,7 +9327,7 @@ Transform:
   m_GameObject: {fileID: 532169719}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.45, z: -155.3}
+  m_LocalPosition: {x: 0, y: 0.69, z: -177.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9466,7 +9579,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &562237781
 Transform:
@@ -9498,7 +9611,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 130404275}
+      - m_Target: {fileID: 1641540279}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9510,7 +9623,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1641540279}
+      - m_Target: {fileID: 130404275}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9524,7 +9637,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 1
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &562237783
 MonoBehaviour:
@@ -9543,7 +9656,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &562237787
 MonoBehaviour:
@@ -9615,9 +9728,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1641540279}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   NodeID: 8
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &562237791
 MonoBehaviour:
@@ -9636,7 +9761,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 7
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &562237792
 MonoBehaviour:
@@ -9655,7 +9780,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &562237793
 MonoBehaviour:
@@ -9724,76 +9849,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 4
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":632,"yPos":127.000015},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Use
-    the shovel","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":628.3333,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    right here, director.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":633.3333,"yPos":196.000031},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    looks like a group photo. This must have been taken when everyone first arrived
-    at Clinic No.0.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":631.3333,"yPos":302.6667},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
-    those were the days...","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 5
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":true,"xPos":628.3334,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s...
+    right! Even the floor patterns can change. After all, this is my dollhouse!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":633.3334,"yPos":196.000031},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"TEDDIE.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":631.3334,"yPos":302.6667},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Aww
+    fine, fine! I hereby declare the Director the winner! RAVEN, you''re such a killjoy!","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":630.6667,"yPos":108.666672},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Now,
+    let''s keep playi--","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1497163878}
-  - {fileID: 1497163877}
   - {fileID: 1497163876}
   - {fileID: 1497163874}
   - {fileID: 1497163879}
+  - {fileID: 1497163880}
   ContinueFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1764099039}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 347479390}
-        m_TargetAssemblyTypeName: ColliderManager, Assembly-CSharp
-        m_MethodName: EnableTrigger
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1412518568}
-        m_TargetAssemblyTypeName: Dialogue_SwichManager, Assembly-CSharp
-        m_MethodName: SwitchScripts
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 946246251}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &579692132
 Transform:
   m_ObjectHideFlags: 0
@@ -10484,7 +10559,7 @@ GameObject:
   - component: {fileID: 777175629}
   - component: {fileID: 777175628}
   m_Layer: 0
-  m_Name: Forest_Human_Conversation
+  m_Name: Teddie_Human_Conversation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10502,69 +10577,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 5
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":628.666565,"yPos":120.333359},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Give
-    the items to Forest","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":628.3333,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    right here, director.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":628.6666,"yPos":181.333328},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"FOREST","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":627.999939,"yPos":246.666672},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I...","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"FOREST","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":625.333252,"yPos":326.666626},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Director...?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"FOREST","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 9
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":950.6666,"yPos":-85.66668},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    promise","parentUIDs":[5],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":955.333435,"yPos":123.666634},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Goodbye
+    Teddie","parentUIDs":[7],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":true,"xPos":478.333374,"yPos":-121.333336},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Teddie,
+    I''m sure our Director would be more than happy to play with you in real world.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":707.3333,"yPos":-12.666687},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Dreams
+    must eventually give way to reality. Wouldn''t you like to come out and say goodbye
+    to the Director in person before we leave?","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":702,"yPos":86.00002},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    don''t like goodbyes... But fine! Once the Director wakes up, we can see each
+    other again.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":698.6666,"yPos":178.6666},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Teddie
+    steps into the dollhouse. He looks much smaller and thinner than you expected.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":705.3333,"yPos":-118.000008},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Of
+    course! Director is my favourite person ever! I want you to play with me, forever
+    and ever!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":956.0002,"yPos":24.6666565},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Perhaps,
+    if it weren''t for that human experimentation lab, he could have been an ordinary
+    boy, with plenty of time to enjoy his childhood.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1270835860}
-  - {fileID: 1270835859}
   - {fileID: 1270835858}
   - {fileID: 1270835857}
   - {fileID: 1270835855}
+  - {fileID: 1270835864}
+  - {fileID: 1270835863}
+  - {fileID: 1270835862}
+  - {fileID: 1270835861}
   ContinueFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 540541222}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1115389348}
+        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1624067282}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 946246251}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10731,8 +10783,9 @@ GameObject:
   m_Component:
   - component: {fileID: 853730590}
   - component: {fileID: 853730592}
-  - component: {fileID: 853730591}
   - component: {fileID: 853730589}
+  - component: {fileID: 853730594}
+  - component: {fileID: 853730593}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -10779,6 +10832,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 942917012}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1087412506}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   NodeID: 2
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
   Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
@@ -10798,37 +10875,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1965778592}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &853730591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853730588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1115389348}
-        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!114 &853730592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10846,7 +10892,45 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &853730593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853730588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 4
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &853730594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853730588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &860474916
 GameObject:
@@ -11396,7 +11480,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951463557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -11805,7 +11889,7 @@ GameObject:
   - component: {fileID: 1063733357}
   - component: {fileID: 1063733356}
   m_Layer: 5
-  m_Name: Image_HeadFOREST
+  m_Name: Image_HeadTEDDIE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11850,7 +11934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: df065a79d79e4404db1e95c903e1eaa2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 23807d16fc398e14ab9c38feaa596613, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11868,6 +11952,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063733354}
   m_CullTransparentMesh: 1
+--- !u!1 &1087412506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087412510}
+  - component: {fileID: 1087412509}
+  - component: {fileID: 1087412508}
+  - component: {fileID: 1087412507}
+  m_Layer: 0
+  m_Name: Floor (item3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!64 &1087412507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087412506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1087412508
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087412506}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 469262f98c200974685ecbccd861790b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1087412509
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087412506}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1087412510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087412506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.9238796, z: -0, w: -0.38268325}
+  m_LocalPosition: {x: 0, y: 0, z: -90.2}
+  m_LocalScale: {x: 13.861376, y: 13.861376, z: 13.861376}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 225, z: 0}
 --- !u!1 &1100787516
 GameObject:
   m_ObjectHideFlags: 0
@@ -12890,6 +13083,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1891641332}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &1235508886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235508888}
+  - component: {fileID: 1235508887}
+  m_Layer: 0
+  m_Name: 02_Empty_window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &1235508887
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235508886}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9666bab8ada32c44f9833367df85fe5d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 23.604069, y: 17}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1235508888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235508886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -14.4, z: -18.5}
+  m_LocalScale: {x: 6.573377, y: 6.573377, z: 6.573377}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242243486
 GameObject:
   m_ObjectHideFlags: 0
@@ -12947,10 +13227,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1270835856}
   - component: {fileID: 1270835860}
-  - component: {fileID: 1270835859}
   - component: {fileID: 1270835858}
   - component: {fileID: 1270835857}
   - component: {fileID: 1270835855}
+  - component: {fileID: 1270835864}
+  - component: {fileID: 1270835863}
+  - component: {fileID: 1270835862}
+  - component: {fileID: 1270835861}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -12974,18 +13257,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 540541222}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13021,9 +13292,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 278584342}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1235508886}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   NodeID: 4
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: f2dc591631d9e044d815a5f8f800a3d1, type: 3}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!4 &1270835856
 Transform:
@@ -13057,7 +13352,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: f2dc591631d9e044d815a5f8f800a3d1, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1270835858
 MonoBehaviour:
@@ -13076,9 +13371,66 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1270835860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270835854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1270835861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270835854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 8
+  TMPFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
---- !u!114 &1270835859
+--- !u!114 &1270835862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270835854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 7
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1270835863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13105,11 +13457,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NodeID: 1
+  NodeID: 6
   TMPFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
---- !u!114 &1270835860
+--- !u!114 &1270835864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13124,9 +13476,9 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 0
+  NodeID: 5
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1284189604
 GameObject:
@@ -13392,7 +13744,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366470664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -125}
+  m_LocalPosition: {x: 0, y: 0, z: -151.8}
   m_LocalScale: {x: 0.1543149, y: 0.1543149, z: 0.1543149}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13401,7 +13753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 45.8, y: 3.9}
+  m_AnchoredPosition: {x: 23.5, y: 3.9}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1366470669
@@ -13833,36 +14185,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 3
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":627.3333,"yPos":154.333328},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Use
-    the shovel","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":628.3333,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    right here, director.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":623.999939,"yPos":259.333374},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    looks like a... rose in an IV bottle. Let''s keep it for now, Director.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 5
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":615.6667,"yPos":-190.000015},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    got it right! The first one was pretty easy to spot, huh? Well then, let''s keep
+    going!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":610.6666,"yPos":48.00003},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"If
+    you ever have trouble finding the differences, please feel free to come back
+    and talk to me.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":612.6666,"yPos":-92.66667},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
+    done, Director. The following rounds may prove a little more challenging.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 378882031}
-  - {fileID: 378882030}
   - {fileID: 378882028}
+  - {fileID: 378882032}
   ContinueFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1115389348}
-        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1432572113
 Transform:
   m_ObjectHideFlags: 0
@@ -14215,10 +14557,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1497163875}
   - component: {fileID: 1497163878}
-  - component: {fileID: 1497163877}
   - component: {fileID: 1497163876}
   - component: {fileID: 1497163874}
   - component: {fileID: 1497163879}
+  - component: {fileID: 1497163880}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -14291,7 +14633,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 3
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1497163875
 Transform:
@@ -14327,37 +14669,6 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
   Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
   Audio: {fileID: 0}
---- !u!114 &1497163877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497163873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1115389348}
-        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!114 &1497163878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14375,7 +14686,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
-  Icon: {fileID: 21300000, guid: 2f503cd8a52cf9044af91cfbb21412a8, type: 3}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1497163879
 MonoBehaviour:
@@ -14395,6 +14706,25 @@ MonoBehaviour:
   NodeID: 8
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1497163880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497163873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 4
+  TMPFont: {fileID: 11400000, guid: 909523badf4a17c4e9eae8440524e8a1, type: 2}
+  Icon: {fileID: 21300000, guid: 7729e1ab52d2bea4f8863eb771079991, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1507111280
 GameObject:
@@ -15221,7 +15551,7 @@ GameObject:
   - component: {fileID: 1624067284}
   - component: {fileID: 1624067283}
   m_Layer: 0
-  m_Name: 01_FOREST_chibi
+  m_Name: 02_TEDDIE_chibi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15292,7 +15622,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d72a4650bf1ae584e8a855942cfa0c60, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ab807c9b3d0e924b83594c4d8d1981f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15312,9 +15642,9 @@ Transform:
   m_GameObject: {fileID: 1624067282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: -43.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16050,7 +16380,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641540279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -68.5}
+  m_LocalPosition: {x: 0, y: 0, z: -93.6}
   m_LocalScale: {x: 0.1543149, y: 0.1543149, z: 0.1543149}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16059,7 +16389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 41.3, y: 3.9}
+  m_AnchoredPosition: {x: -67.4, y: 3.9}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1641540284
@@ -17202,17 +17532,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764099039}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -76.2}
-  m_LocalScale: {x: 0.1543149, y: 0.1543149, z: 0.1543149}
+  m_LocalRotation: {x: -0, y: 0.3854196, z: -0, w: 0.9227415}
+  m_LocalPosition: {x: 0, y: 0, z: -72.8}
+  m_LocalScale: {x: 0.41891867, y: 0.41891867, z: 0.41891867}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 17015262}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 45.34, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -63.1, y: 3.9}
+  m_AnchoredPosition: {x: -1.1, y: 3.9}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1764099044
@@ -17234,8 +17564,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 59.99109, y: 47.22902, z: 40.304977}
-  m_Center: {x: 0.7600106, y: -3.4044733, z: -0.15739514}
+  m_Size: {x: 59.991096, y: 47.22903, z: 67.49912}
+  m_Center: {x: 0.76000977, y: -3.4044726, z: 1.4747465}
 --- !u!114 &1764099045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17823,36 +18153,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 3
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":629.999939,"yPos":123},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Use
-    the shovel","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":628.3333,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    right here, director.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":632.6666,"yPos":196},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    looks like a book of poetry. Forest has always loved reading these.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 5
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":523.666748,"yPos":-130},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Correct,
+    again!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":532.6667,"yPos":93.33334},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    is the last round, correct?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"RAVEN","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":526,"yPos":-12.6666622},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
+    I should make it a little trickier next time. You''re just too clever, Director.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":814.000061,"yPos":94},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"I~can''t~hear~you~!","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"TEDDIE","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 853730592}
-  - {fileID: 853730591}
   - {fileID: 853730589}
+  - {fileID: 853730594}
+  - {fileID: 853730593}
   ContinueFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 6c92b607dd5b1c548937348e3ba080d4, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1115389348}
-        m_TargetAssemblyTypeName: SoundEffect, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1965778592
 Transform:
   m_ObjectHideFlags: 0
@@ -17901,6 +18220,7 @@ Transform:
   - {fileID: 397877105}
   - {fileID: 449549528}
   - {fileID: 1751111224}
+  - {fileID: 112390017}
   - {fileID: 366136810}
   - {fileID: 510667367}
   - {fileID: 330049877}
@@ -18393,7 +18713,7 @@ RectTransform:
   m_GameObject: {fileID: 2101781017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.40143, y: 0.40143, z: 0.40143}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1641540283}
@@ -18423,7 +18743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7d03e2545a17e5469f64c9de18f8491, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ecc6a58eab502e4588ca9a4e5bd0322, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18488,11 +18808,13 @@ SceneRoots:
   - {fileID: 1572620455}
   - {fileID: 532169720}
   - {fileID: 942917016}
+  - {fileID: 1087412510}
   - {fileID: 399448105}
   - {fileID: 202361775}
   - {fileID: 1999210032}
   - {fileID: 1891641332}
   - {fileID: 540541224}
+  - {fileID: 1235508888}
   - {fileID: 946246255}
   - {fileID: 420390732}
   - {fileID: 777175629}
