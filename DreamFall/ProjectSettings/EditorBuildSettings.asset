@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene02_TEDDIE.unity
     guid: 0b764af3775c74849b839531575ed231
   - enabled: 1
-    path: Assets/Scenes/Scene03_Endings.unity
+    path: Assets/Scenes/GoodEnding.unity
     guid: 694b632fbf7e4b347b226effe48d495c
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: 37e1eed2af1650040a36c2c55af4200d
+  - enabled: 1
+    path: Assets/Scenes/NormalEnding.unity
+    guid: a7b22120557ab0a468b604b8d3a74ee8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
